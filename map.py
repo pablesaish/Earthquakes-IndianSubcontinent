@@ -12,10 +12,10 @@ all_eq_dicts = all_eq_data['features']
 
 mags, lats, lons, eq_titles = [], [], [], []
 for eq_dict in all_eq_dicts:
-    mag = eq_dict['properties'].get('mag')  # Use .get() to avoid KeyErrors
+    mag = eq_dict['properties']['mag']
     lon = eq_dict['geometry']['coordinates'][0]
     lat = eq_dict['geometry']['coordinates'][1]
-    eq_title = eq_dict['properties'].get('place', 'Unknown Location')  # Default value if missing
+    eq_title = eq_dict['properties']['title']
     
     # Filter out invalid data
     if mag is not None and mag > 0:  
