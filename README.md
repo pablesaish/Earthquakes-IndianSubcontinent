@@ -49,11 +49,6 @@ pip install plotly
    ```
 3. The interactive map will be displayed in your web browser!
 
-## Example Output
-
-An interactive scatter map displaying earthquake locations and magnitudes:
-
-
 ## Future Enhancements ✨
 
 🔹 Improve UI with custom markers & tooltips\
