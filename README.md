@@ -20,7 +20,7 @@ This project visualizes earthquakes in the **Indian Subcontinent** over the past
 
 ## Data Source
 
-The earthquake data is fetched from the **USGS Earthquake Hazards Program** using their [GeoJSON]([https://earthquake.usgs.gov/fdsnws/event/1/](https://earthquake.usgs.gov/fdsnws/event/1/query.geojson?starttime=2019-01-1%2000:00:00&endtime=2025-03-02%2023:59:59&maxlatitude=36.015&minlatitude=5.596&maxlongitude=95.273&minlongitude=67.676&minmagnitude=1&orderby=time)). The dataset includes:
+The earthquake data is fetched from the **USGS Earthquake Hazards Program** using their [GeoJSON](https://www.usgs.gov/programs/earthquake-hazards). The dataset includes:
 
 - **Magnitude** of the earthquake
 - **Location** (Latitude & Longitude)
@@ -30,7 +30,7 @@ The earthquake data is fetched from the **USGS Earthquake Hazards Program** usin
 
 ### Prerequisites
 
-Make sure you have **Python 3.x** installed along with the following libraries:
+Make sure you have **Python** installed along with the following libraries:
 
 ```bash
 pip install plotly
