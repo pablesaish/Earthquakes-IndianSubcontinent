@@ -20,12 +20,11 @@ This project visualizes earthquakes in the **Indian Subcontinent** over the past
 
 ## Data Source
 
-The earthquake data is fetched from the **USGS Earthquake Hazards Program** using their [API](https://earthquake.usgs.gov/fdsnws/event/1/). The dataset includes:
+The earthquake data is fetched from the **USGS Earthquake Hazards Program** using their [GeoJSON file]([https://earthquake.usgs.gov/fdsnws/event/1/](https://earthquake.usgs.gov/fdsnws/event/1/query.geojson?starttime=2019-01-1%2000:00:00&endtime=2025-03-02%2023:59:59&maxlatitude=36.015&minlatitude=5.596&maxlongitude=95.273&minlongitude=67.676&minmagnitude=1&orderby=time)). The dataset includes:
 
 - **Magnitude** of the earthquake
 - **Location** (Latitude & Longitude)
 - **Date & Time** of occurrence
-- **Depth** of the earthquake
 
 ## Installation & Usage 🚀
 
@@ -34,7 +33,7 @@ The earthquake data is fetched from the **USGS Earthquake Hazards Program** usin
 Make sure you have **Python 3.x** installed along with the following libraries:
 
 ```bash
-pip install plotly pandas requests
+pip install plotly
 ```
 
 ### Running the Script
@@ -64,12 +63,6 @@ An interactive scatter map displaying earthquake locations and magnitudes:
 ## Contributing 🤝
 
 Feel free to contribute by submitting **issues** or **pull requests**!
-
-## License
-
-This project is licensed under the **MIT License**.
-
----
 
 Made with ❤️ using Python & Plotly. Happy Coding! 🎯
 
