@@ -41,11 +41,10 @@ pip install plotly
 1. Clone this repository:
    ```bash
    git clone https://github.com/pablesaish/Earthquakes-IndianSubcontinent.git
-   cd earthquake-map
    ```
 2. Run the Python script:
    ```bash
-   python earthquake_map.py
+   python map.py
    ```
 3. The interactive map will be displayed in your web browser!
 
