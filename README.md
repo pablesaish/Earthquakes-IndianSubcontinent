@@ -11,7 +11,7 @@ This project visualizes earthquakes in the **Indian Subcontinent** over the past
 ✅ Visual representation of earthquake magnitude using **scatter plots** 🎨\
 ✅ Focused on the **last five years of earthquake data** 📊
 
-## Technologies Used
+## Tech Stack Used
 
 - **Python** 🐍
 - **Plotly Express** for interactive visualization 📈
