@@ -61,13 +61,13 @@ fig.update_layout(
         {
             'text': subtitle,
             'xref': 'paper', 'yref': 'paper',  # Coordinate system
-            # If you use 'paper' for xref and yref, it's like saying:
-            # it puts this text anywhere on the paper"
+            # If you use 'paper' for xref and yref,
+            # it puts this text anywhere on the paper
             # Example: A subtitle at the bottom of the map.
 
             # If you use 'x' and 'y',
-            #"it put this text next to a specific earthquake on the map."
-            #Example: Labeling the biggest earthquake by pointing to it.
+            # it put this text next to a specific earthquake on the map.
+            # Example: Labeling the biggest earthquake by pointing to it.
             
             'x': 0.5, 'y': -0.05,  # Move the subtitle belo chart x centers the text horizontally & y moves data below the char
             'showarrow': False,  # Whether to show an arrow pointing to something
